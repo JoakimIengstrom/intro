@@ -1,6 +1,6 @@
 import "./App.css";
 import Info from "./components/Info";
-//import Form from "./components/Form";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
         <Info />
         <div className="claria"></div>
         <Info />
+        <Form />
       </body>
     </div>
   );
