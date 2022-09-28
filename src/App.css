@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+html {
+  background-color: antiquewhite;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: auto;
+  margin-top: 25px;
+  max-width: 90%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 3px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  background: url("../public/img/Hive_Logo.svg") center center/cover no-repeat;
+  width: 100px;
+  height: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.claria {
+  background: url("../public/img/claria.jpg") center center/cover no-repeat;
+  width: 200px;
+  height: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.system {
+  background: url("../public/img/sytem.png") center center/cover no-repeat;
+  width: 200px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  max-height: 100px;
 }
+
+.infoText {
+  font-family:'Times New Roman', Times, serif
+}
+
