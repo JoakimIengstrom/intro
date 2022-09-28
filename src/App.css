@@ -30,11 +30,28 @@ body {
   height: 100px;
 }
 
-header {
-  max-height: 100px;
+.logo {
+  max-height: 100px;  
 }
 
 .infoText {
   font-family:'Times New Roman', Times, serif
 }
+
+.fishHeader {
+  display: flex;
+  flex-direction: row;
+  background-color: aquamarine;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: solid 3px black;
+  padding: 10px;
+}
+
+.headline {
+  margin-left: 20px;
+}
+
 
