@@ -1,21 +1,19 @@
 import "./App.css";
 import Info from "./components/Info";
 import Form from "./components/Form";
-import FormTest from "./components/FormTest";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="fishHeader">
-        <div className="logo"></div>
-        <h1 className="headline">Sommarfisk </h1>
-      </header>
       <body>
+        <Header />
         <Info />
         <div className="claria"></div>
         <Info />
         <Form />
-        <FormTest />
+        <Footer />
       </body>
     </div>
   );
