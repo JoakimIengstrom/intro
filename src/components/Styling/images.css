@@ -11,6 +11,13 @@
     margin: auto;
   }  
 
+  .fish{
+    background: url("../../../public/img/fish.svg") center center/cover no-repeat;
+    width: 255px;
+    height: 254px;
+    margin: auto;
+  }  
+
   .IllustrationSystem{
     background: url("../../../public/img/Illustrationsystem.svg") center center/cover no-repeat;
     width:250px;

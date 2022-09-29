@@ -1,10 +1,10 @@
 import React from 'react'
-import "../../src/App.css";
+import "./Styling/text.css"
 
 export default function Header() {
   return (
-    <header className="fishHeader">        
-        <h1 className="headline">ODLA DIN EGEN FISK</h1>
+      <header className="fishHeader text-center">        
+        <h1 id="headline">ODLA DIN EGEN FISK</h1>
       </header>
   )
 }

@@ -1,7 +1,9 @@
   .fishHeader h1{
     text-align: center;
     color: white;
-
+    font-size: 48;
+    font-weight: 600;
+    
   }
   
   .infoText {
@@ -55,3 +57,9 @@
     color: white;
     font-weight: 500;
   } 
+
+  #specialSign{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+  }

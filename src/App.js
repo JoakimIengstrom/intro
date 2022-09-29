@@ -2,7 +2,7 @@ import "./App.css";
 import "./components/Styling/divStyling.css";
 //import { DivStyling, Form, Images, Reusable, Text } from "./components/Styling";
 import Info from "./components/Info";
-/* import Form from "./components/Form"; */
+import Form from "./components/Form";
 import Reasons from "./components/Reasons";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,9 +15,8 @@ function App() {
         <Header />
         <Info />
         <Reasons />
-        {/* <div className="IllustrationSystem"></div> */}
+        <Form />
         <Facts />
-        {/*         <Form /> */}
         <Footer />
       </body>
     </div>
