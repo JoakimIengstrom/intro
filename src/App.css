@@ -23,6 +23,13 @@ body {
   width: 200px;
   height: 100px;
 }
+.IllustrationSystem{
+  background: url("../public/img/Illustrationsystem.svg") center center/cover no-repeat;
+  width:250px;
+  height:250px;
+  display: flex;
+  
+}
 
 .system {
   background: url("../public/img/sytem.png") center center/cover no-repeat;
@@ -34,11 +41,6 @@ body {
   max-height: 100px;  
 }
 
-.infoText {
-  margin-top: 250px;
-  color: white;
-}
-
 .fishHeader {
   display: flex;
   flex-direction: row;
@@ -48,8 +50,38 @@ body {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
-  font-family: ;
+  font-family: 'Rubik', sans-serif;
+  color: #09353D;
+  font-size: 18px;
 }
+.infoText {
+  margin-top: 250px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  color: #09353D;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+#infoTitle{
+  font-size: 32px;
+  font-family: 'Rubik', sans-serif;
+  color: #09353D;
+}
+#infoSubTitle{
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+  color: #09353D;
+}
+#infoText{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
 
 .headline {
   margin-left: 20px;
