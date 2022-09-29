@@ -11,9 +11,8 @@ function App() {
       <body>
         <Header />
         <Info />
-        <div className="claria"></div>
-        <Info />
-        <FunFacts />
+{/*  {        <div className="IllustrationSystem"></div> }
+ */}        <FunFacts />
         <Form />
         <Footer />
       </body>
