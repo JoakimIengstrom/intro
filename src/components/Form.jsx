@@ -2,43 +2,43 @@ import * as React from 'react'
 
 
 export default function form() {
-  return (
-    <form name="contact" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+  return <div>
+  <form
+    name="contact"
+    method="post"
+    data-netlify="true"
+    onSubmit="submit"
+    data-netlify-honeypot="bot-field">
+
        <input type="hidden" name="form-name" value="contact" />
-       
+
        <div hidden>
         <input name="bot-field" />
-       </div>
+       </div><br />
 
 
-      <p>
-        <label>
-          Your Name: <input type="text" name="name" />
+      <div>
+        <label>Your name: <br />
+           <input type="text" name="first-name" />
         </label>
-      </p>
+      </div><br /> 
 
-      <p>
-        <label>
-          Your Email: <input type="email" name="email" />
+      <div>
+        <label>Your Email: <br />
+           <input type="email" name="email" />
         </label>
-      </p>
+      </div><br />
 
-      <p>
-        <label>
-          Subject 1: <input type="text" name="test" />
-        </label>
-      </p>
+      <div>
+        <label>Question: <br />
+           <textarea name="question"></textarea>
+        </label> 
+      </div><br />
 
-      <p>
-        <label>
-          Message 1: <textarea name="message"></textarea>
-        </label>
-      </p>
-
-      <p>
+    
         <button type="submit">Send</button>
-      </p>
+    
 
     </form>
-  );
+  </div>
 }
