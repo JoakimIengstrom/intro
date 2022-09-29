@@ -1,6 +1,7 @@
 import "./App.css";
 import Info from "./components/Info";
 import Form from "./components/Form";
+import FunFacts from "./components/FunFacts";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -12,6 +13,7 @@ function App() {
         <Info />
         <div className="claria"></div>
         <Info />
+        <FunFacts />
         <Form />
         <Footer />
       </body>

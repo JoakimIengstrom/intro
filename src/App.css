@@ -1,15 +1,15 @@
 html {
-  background-color: antiquewhite;  
+  background: url("../public/img/Bakgrund2.png") center center/cover no-repeat;
+  width: 428px;
+  height: 4315.5px;  
 }
 
 body {
   margin: auto;
   margin-top: 25px;
-  max-width: 90%;
-  background-color: white;
+  max-width: 428px;
   padding: 10px;
   border-radius: 5px;
-  border: solid 3px black;
 }
 
 .logo {
@@ -35,19 +35,20 @@ body {
 }
 
 .infoText {
-  font-family:'Times New Roman', Times, serif
+  margin-top: 250px;
+  color: white;
 }
 
 .fishHeader {
   display: flex;
   flex-direction: row;
-  background-color: aquamarine;
   max-width: 100%;
   margin: auto;
   margin-top: 10px;
   border-radius: 5px;
-  border: solid 3px black;
   padding: 10px;
+  text-align: center;
+  font-family: ;
 }
 
 .headline {
@@ -57,12 +58,15 @@ body {
 .fishFooter {
   display: flex;
   flex-direction: row;
-  background-color: aquamarine;
   max-width: 100%;
   margin: auto;
   margin-top: 10px;
-  border-radius: 5px;
-  border: solid 3px black;
+  border-radius: 5px;  
   padding: 10px;
 }
+
+.funText {
+  color: white;
+}
+
 

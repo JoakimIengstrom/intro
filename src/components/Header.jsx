@@ -3,9 +3,10 @@ import "../../src/App.css";
 
 export default function Header() {
   return (
-    <header className="fishHeader">
-        <div className="logo"></div>
-        <h1 className="headline">Sommarfisk </h1>
+    <header className="fishHeader">        
+        <h1 className="headline">ODLA DIN EGEN FISK</h1>
       </header>
   )
 }
+
+//<div className="logo"></div>
