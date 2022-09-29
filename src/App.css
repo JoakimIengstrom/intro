@@ -2,6 +2,7 @@ html {
   background: url("../public/img/Bakgrund2.png") center center/cover no-repeat;
   width: 428px;
   height: 4315.5px;  
+  overflow-x: hidden;
 }
 
 body {
