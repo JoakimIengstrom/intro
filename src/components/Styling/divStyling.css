@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-bottom: 2rem;
 }
 .form-div input, textarea{
     border-radius: 5px;
@@ -27,7 +28,7 @@
 }
 .form-div textarea{
     width:300px;
-    height:100px
+    height:150px
 }
 .form-div button{
     align-items: center;
@@ -40,5 +41,11 @@
     background-color: #09353D;
     border-radius: 5px;
     color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.factDiv{
+    margin-top: 100px;
 }
 

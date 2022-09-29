@@ -4,7 +4,7 @@ import "./Styling/reusable.css"
 // Fråga Emma och Sandra om rad 12-16
 export default function Facts() {
   return (
-    <div className='flex justify-center align-center text-center flex-column'>
+    <div className='flex justify-center align-center text-center flex-column factDiv'>
         <div className='greenhouse'></div>
         <h2 id="factSubTitle">Visste du att?</h2>
         <p id="infoText">Clarias kan - till skillnad från andra arter -  leva tätt. De gillar sällskap!</p>
