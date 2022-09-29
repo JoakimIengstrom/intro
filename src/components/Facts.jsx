@@ -2,7 +2,7 @@ import React from 'react'
 import "./Styling/text.css"
 import "./Styling/reusable.css"
 
-export default function () {
+export default function Facts() {
   return (
     <div className='factDivflex justify-center align-center text-center'>
         <div className='greenhouse'></div>
