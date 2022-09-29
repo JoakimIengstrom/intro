@@ -1,0 +1,14 @@
+.reasons{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.fishHeader{
+    width:100%;
+}
+
+.factDiv{
+    border: 1px solid black;
+}

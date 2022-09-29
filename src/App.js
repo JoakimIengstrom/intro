@@ -1,9 +1,12 @@
 import "./App.css";
+import "./components/Styling/divStyling.css";
+//import { DivStyling, Form, Images, Reusable, Text } from "./components/Styling";
 import Info from "./components/Info";
-/* import Form from "./components/Form";
- */import FunFacts from "./components/FunFacts";
+/* import Form from "./components/Form"; */
+import Reasons from "./components/Reasons";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Facts from "./components/Facts";
 
 function App() {
   return (
@@ -11,9 +14,10 @@ function App() {
       <body>
         <Header />
         <Info />
-{/*  {        <div className="IllustrationSystem"></div> }
- */}        <FunFacts />
-{/*         <Form /> */}
+        <Reasons />
+        {/* <div className="IllustrationSystem"></div> */}
+        <Facts />
+        {/*         <Form /> */}
         <Footer />
       </body>
     </div>

@@ -1,0 +1,25 @@
+.logo {
+    background: url("../../../public/img/Hive_Logo.svg") center center/cover no-repeat;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .greenhouse{
+    background: url("../../../public/img/greenhouse.svg") center center/cover no-repeat;
+    width: 286px;
+    height: 299px;
+    margin: auto;
+  }  
+
+  .IllustrationSystem{
+    background: url("../../../public/img/Illustrationsystem.svg") center center/cover no-repeat;
+    width:250px;
+    height:250px;
+    margin: auto;
+  }
+
+  .system {
+    background: url("../../../public/img/sytem.png") center center/cover no-repeat;
+    width: 200px;
+    height: 100px;
+  }
