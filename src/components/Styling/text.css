@@ -63,3 +63,14 @@
     font-size: 22px;
     color: white;
   }
+
+  label{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+
+  #formButton{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30;
+
+  }
