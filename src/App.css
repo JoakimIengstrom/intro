@@ -1,6 +1,6 @@
 html {
   background: url("../public/img/Bakgrund2.png") center center/cover no-repeat;
-  width: 428px;
+  width: 100%;
   height: 4315.5px;  
   overflow-x: hidden;
 }
@@ -102,4 +102,12 @@ body {
   color: white;
 }
 
+@media screen and (min-width: 768px) {
+  html {
+    background: url("../public/img/Desktop_background.svg") center center/cover no-repeat;
+    width: 100%;
+    height: 4315.5px;  
+    overflow-x: hidden;
+  }
+}
 
