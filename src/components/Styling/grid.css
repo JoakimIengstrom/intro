@@ -1,0 +1,16 @@
+
+.gridLayout {
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 2fr) 4fr 2fr 2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: "header header" 
+                         "info1 info2"
+                         "reasons1 reasons2"
+                         "form facts"
+                         "footer footer"   
+    }
+
+    
+  
