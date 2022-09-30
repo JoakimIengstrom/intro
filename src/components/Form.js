@@ -1,10 +1,11 @@
 import * as React from "react";
 import "./Styling/divStyling.css";
-import "./Styling/text.css"
+import "./Styling/text.css";
+import "./Styling/grid.css";
 
 export default function form() {
   return (
-    <div class="form-div">
+    <div class="form-div form">
       <form
         name="contact"
         method="post"
@@ -21,7 +22,7 @@ export default function form() {
 
         <div>
           <label>
-            Namn*  <br />
+            Namn* <br />
             <input type="text" name="name" />
           </label>
         </div>
@@ -51,7 +52,9 @@ export default function form() {
         </div>
         <br />
 
-        <button type="submit" id="formButton">Skicka</button>
+        <button type="submit" id="formButton">
+          Skicka
+        </button>
       </form>
     </div>
   );
