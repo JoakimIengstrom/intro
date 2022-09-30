@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Styling/text.css"
 import "./Styling/images.css"
+import "./Styling/divStyling.css"
 
 export default function info() {
   return (

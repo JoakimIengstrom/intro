@@ -1,5 +1,6 @@
 import * as React from "react";
 import "./Styling/divStyling.css";
+import "./Styling/text.css"
 
 export default function form() {
   return (
@@ -20,15 +21,15 @@ export default function form() {
 
         <div>
           <label>
-            Your name: <br />
-            <input type="text" name="first-name" />
+            Namn*  <br />
+            <input type="text" name="name" />
           </label>
         </div>
         <br />
 
         <div>
           <label>
-            Your Email: <br />
+            E-postaddress* <br />
             <input type="email" name="email" />
           </label>
         </div>
@@ -36,7 +37,7 @@ export default function form() {
 
         <div>
           <label>
-            Fråga1: <br />
+            Ämne: <br />
             <textarea name="subject"></textarea>
           </label>
         </div>
@@ -44,13 +45,13 @@ export default function form() {
 
         <div>
           <label>
-            Fråga2: <br />
+            Fråga: <br />
             <textarea name="question"></textarea>
           </label>
         </div>
         <br />
 
-        <button type="submit">Send</button>
+        <button type="submit" id="formButton">Skicka</button>
       </form>
     </div>
   );

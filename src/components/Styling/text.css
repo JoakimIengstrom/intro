@@ -7,7 +7,7 @@
   }
   
   .infoText {
-    margin-top: 100px;
+    margin-top: 20px;
     color: white;
     font-family: 'Rubik', sans-serif;
     color: #09353D;
@@ -22,13 +22,13 @@
   #infoTitle{
     font-size: 32px;
     font-family: 'Rubik', sans-serif;
-    color: #09353D;
+    color: white;
   }
 
   #infoSubTitle{
     font-size: 24px;
     font-family: 'Rubik', sans-serif;
-    color: #09353D;
+    color: white;
   }
 
   #factSubTitle{
@@ -56,10 +56,31 @@
     font-size: 20px;
     color: white;
     font-weight: 500;
+    margin-left: 10%;
+    margin-right:10%;
   } 
 
   #specialSign{
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 22px;
     color: white;
+  }
+
+  label{
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  }
+
+  #formButton{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+
+  }
+
+  @media only screen and (min-width:600px) {
+
+    .infoText{
+      margin-top: 175px;
+    }
+    
   }
