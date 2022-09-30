@@ -3,6 +3,8 @@ html {
   width: 100%;
   height: 4000.5px;  
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -25,12 +27,12 @@ body {
 
 
 
-@media screen and (min-width: 600px) {
+ @media screen and (min-width: 600px) {
   html {
     background: url("../public/img/desktopBackground.svg") center center/cover no-repeat;
     width: 100%;
-    height: 4315.5px;  
+    max-height: 2929px;  
     overflow-x: hidden;
   }
-}
+} 
 

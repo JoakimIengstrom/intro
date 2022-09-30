@@ -2,6 +2,7 @@ import React from 'react'
 import "./Styling/text.css"
 import "./Styling/images.css"
 import "./Styling/divStyling.css"
+//import "./Styling/grid.css"
 
 export default function info() {
   return (
@@ -12,7 +13,7 @@ export default function info() {
         Med oss är det enkelt och kilmatsmart. </p>
       
         <div className='IllustrationSystem'></div>
-
+      <br />
         <p id='infoSubTitle'>Pilot 2023
         <p id='infoText'> Under sommaren 2023 kommer konceptet sommarfisk att testas tillsammans med ett fåtal utvalda personer.</p>
         </p>

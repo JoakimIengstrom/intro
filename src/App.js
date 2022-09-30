@@ -1,6 +1,6 @@
 import "./App.css";
 import "./components/Styling/divStyling.css";
-//import { DivStyling, Form, Images, Reusable, Text } from "./components/Styling";
+//import "./components/Styling/grid.css";
 import Info from "./components/Info";
 import Form from "./components/Form";
 import Reasons from "./components/Reasons";
