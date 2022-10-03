@@ -10,7 +10,6 @@
 .form-div{
     border: 1px solid black;
     background-color: #ECECEC;
-    opacity: 0.8;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
@@ -37,7 +36,7 @@
 }
 .form-div textarea{
     width:250px;
-    height:100px
+    height:150px
 }
 .form-div button{
     align-items: center;
