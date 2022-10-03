@@ -26,15 +26,7 @@ body {
   padding: 10px;
 }
 
-
-
-
-
  @media screen and (min-width: 600px) {
-
-  body {
-    margin: none;        
-  }
 
   html {
     background: url("../public/img/desktopBackground.svg") center center/cover no-repeat;
@@ -43,5 +35,12 @@ body {
     overflow-x: hidden;
     padding-right: 10%;
   }  
+
+  .reasons{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    
+}
 } 
 

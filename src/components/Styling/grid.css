@@ -1,28 +1,23 @@
-/* @media screen and (min-width: 600px) {
-    .gridLayout2 {
-        display: grid;    
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 2fr) 4fr 2fr 2fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        grid-template-areas: "header header" 
-                             "info1 info2"
-                             "reasons1 reasons2"
-                             "form facts"
-                             "footer footer"   
-        }
-}
- */
 @media screen and (min-width: 600px) {
+    .item1 { grid-area: header; }
+    .item2 { grid-area: info; }
+    .item3 { grid-area: aquaponic; }
+    .item4 { grid-area: greenhouse; }
+    .item5 { grid-area: reasons; }
+    .item6 { grid-area: form; }
+    .item7 { grid-area: facts; }
+    .item8 { grid-area: claria; }
+    .item9 { grid-area: footer; }
+
     .gridLayout {
         border: 5px solid black;
         display: grid;    
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 1px;
-        grid-row-gap: 1px;     
+        grid-template-rows: 1fr, 2fr, 2fr, 4fr, 1fr, 1fr;;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;     
         width: 100vw;
-        max-height: 3028px;
+        height: 3028px;
         grid-template-areas: "header header" 
                              "info aquaponic"
                              "greenhouse reasons"
@@ -35,6 +30,8 @@
         .gridLayout > div {
             border: 3px solid black;
         }
+
+   
 
         
 }

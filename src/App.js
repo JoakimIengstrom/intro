@@ -17,15 +17,33 @@ function App() {
       <body>
         <div className="padding">
           <div class="gridLayout">
-            <Header />
-            <Info />
-            <Aquaponic />
-            <Reasons />
-            <Form />
-            <Greenhouse />
-            <Facts />
-            <Claria />
-            <Footer />
+            <div className="item1">
+              <Header />
+            </div>
+            <div className="item2">
+              <Info />
+            </div>
+            <div className="item3">
+              <Aquaponic />
+            </div>
+            <div className="item5">
+              <Reasons />
+            </div>
+            <div className="item6">
+              <Form />
+            </div>
+            <div className="item4">
+              <Greenhouse />
+            </div>
+            <div className="item7">
+              <Facts />
+            </div>
+            <div className="item8">
+              <Claria />
+            </div>
+            <div className="item9">
+              <Footer />
+            </div>
           </div>
         </div>
       </body>
