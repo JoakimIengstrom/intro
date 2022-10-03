@@ -6,6 +6,14 @@ import "./Styling/grid.css";
 export default function form() {
   return (
     <div class="form-div form">
+      <p>
+        <b>Är det dig vi söker?</b>
+        <br />
+        Fyll i formuläret om du är intresserad av Sommarfisk och skulle vilja
+        veta mer eller vara delaktig i hur tjänsten kommer utformas. Vi hör av
+        oss till dig men dina uppgifter kommer ej sparas om du inte längre vill
+        delta. Dina uppgifter kommer aldrig användas för något annat.
+      </p>
       <form
         name="contact"
         method="post"
@@ -38,16 +46,17 @@ export default function form() {
 
         <div>
           <label>
-            Ämne: <br />
-            <textarea name="subject"></textarea>
+            Vad skulle du vilja veta mer om?: <br />
+            <textarea name="subject" maxLength="504"></textarea>
           </label>
         </div>
         <br />
 
         <div>
           <label>
-            Fråga: <br />
-            <textarea name="question"></textarea>
+            Med rätt support och guidning, hade du haft möjlighet och plats för
+            sommarfisk? : <br />
+            <textarea name="question" maxLength="504"></textarea>
           </label>
         </div>
         <br />

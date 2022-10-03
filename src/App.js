@@ -1,6 +1,7 @@
 import "./App.css";
 import "./components/Styling/divStyling.css";
 import "./components/Styling/grid.css";
+import "./components/Styling/reusable.css";
 import Info from "./components/Info";
 import Form from "./components/Form";
 import Reasons from "./components/Reasons";
@@ -16,32 +17,32 @@ function App() {
     <div className="App">
       <body>
         <div className="padding">
-          <div class="gridLayout">
-            <div className="item1">
+          <div class="gridLayout align-self">
+            <div className="item1 align-self justify-self">
               <Header />
             </div>
-            <div className="item2">
+            <div className="item2 align-self justify-self">
               <Info />
             </div>
-            <div className="item3">
+            <div className="item3 align-self justify-self">
               <Aquaponic />
             </div>
-            <div className="item5">
+            <div className="item5 align-self justify-self">
               <Reasons />
             </div>
-            <div className="item6">
+            <div className="item6 align-self justify-self">
               <Form />
             </div>
-            <div className="item4">
+            <div className="item4 align-self justify-self">
               <Greenhouse />
             </div>
-            <div className="item7">
+            <div className="item7 align-self justify-self">
               <Facts />
             </div>
-            <div className="item8">
+            <div className="item8 align-self justify-self">
               <Claria />
             </div>
-            <div className="item9">
+            <div className="item9 align-self justify-self">
               <Footer />
             </div>
           </div>
