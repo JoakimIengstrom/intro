@@ -4,10 +4,6 @@ import "./Styling/text.css";
 import "./Styling/form.css";
 
 export default function form() {
-  function onSubmit(e) {
-    e.preventDefault();
-    console.log({ e });
-  }
 
   return (
     <div className="form-container">
@@ -25,7 +21,7 @@ export default function form() {
           name="contact"
           method="post"
           data-netlify="true"
-          onSubmit={onSubmit}
+          onSubmit="onSubmit"
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="contact" />
