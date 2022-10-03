@@ -69,10 +69,22 @@
     margin-top: 100px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
 
     .infoText{
         margin-top: 0px;
+    }
+
+    .desktopInfoReasons{
+        display: flex;
+        flex-direction: row;
+        width:1000px;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid black;
+            margin: auto;
+            transform: translateX(0,-50%);
+
     }
     
 }

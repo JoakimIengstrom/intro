@@ -5,8 +5,7 @@ import "./Styling/text.css"
 //import "./Styling/grid.css"
 
 export default function Reasons() {
-  return  <div className="reasons">
-   
+  return  <div className="reasons">   
 
     <b id="reasonsTitle">4 ANLEDNINGAR TILL ATT DU VILL ODLA FISK</b>
 
