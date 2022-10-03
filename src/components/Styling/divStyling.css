@@ -54,6 +54,10 @@
     #aquaponicImg{
         display: none;
     }
+
+    .infoText{
+        text-align: top;
+    }
     
 }
 
