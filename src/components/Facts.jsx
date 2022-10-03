@@ -2,11 +2,10 @@ import React from 'react'
 import "./Styling/text.css"
 import "./Styling/reusable.css"
 import "./Styling/grid.css"
-// Fråga Emma och Sandra om rad 12-16
+
 export default function Facts() {
   return (
-    <div className='flex justify-center align-center text-center flex-column factDiv'>
-        <div className='greenhouse'></div>
+    <div className='flex justify-center align-center text-center flex-column factDiv facts'>
         <h2 id="factSubTitle">Visste du att?</h2>
         <p id="infoText">Clarias kan - till skillnad från andra arter -  leva tätt. De gillar sällskap!</p>
         <p id="infoText">Clarias Är en proteinmästare. från 100kg foder får man 90kg fisk. en höna ger 40kg.</p>
@@ -17,7 +16,6 @@ export default function Facts() {
         </p>
         <p id="infoText">Systemet har möjlighet att användas på platser där det är brist på mat.</p>
         <p id="infoText">på några få kvadratmeter kan man få 150kg fisk under en sommar - crazy!</p>
-        <div className='fish'></div>
     </div>
   )
 }
