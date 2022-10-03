@@ -10,7 +10,6 @@
     .item9 { grid-area: footer; }
 
     .gridLayout {
-        border: 5px solid black;
         position: relative;
         display: grid;    
         grid-template-columns: repeat(2, 1fr);
@@ -30,7 +29,6 @@
         }
 
         .gridLayout > div {
-            border: 3px solid black;
         }
 
         body {

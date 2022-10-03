@@ -28,12 +28,14 @@
     font-size: 24px;
     font-family: 'Rubik', sans-serif;
     color: white;
+    margin: 2%;
   }
   #infoText{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 22px;
     color: white;
     font-weight: 500;
+    margin-top: 0;
   }
 
   #factSubTitle{
@@ -99,7 +101,7 @@
   @media only screen and (min-width:600px) {
 
     .infoText{
-      margin-top: 175px;
+      margin-top: 0px;
     }
     
   }
