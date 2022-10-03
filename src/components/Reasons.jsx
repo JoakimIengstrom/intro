@@ -15,9 +15,7 @@ export default function Reasons() {
       <p>3. Du vill äta fisk fri från antibiotika</p>
       <p>4. Du vill vara en del i att driva en hållbar utveckling av livsmedelsindustrin</p>
     </div>
-    <br />
-    <br />
-    <br />
+    
 
   </div> 
   

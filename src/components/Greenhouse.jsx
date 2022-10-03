@@ -3,7 +3,6 @@ import "./Styling/images.css"
 
 export default function Greenhouse() {
   return (
-    <div className='greenhouse'></div>
-
+    <img src="/img/greenhouse.svg" alt="img" />
   )
 }

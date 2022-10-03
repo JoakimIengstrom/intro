@@ -8,13 +8,15 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Ankät hemsida om sommarfisk" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC&family=Rubik&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Alegreya+Sans+SC&family=Rubik&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../src/App.css">
   <link rel="stylesheet" href="../src/components/Form.css">
   <link rel="stylesheet" href="../src/components/Styling/div-styling.css">
-  <link rel="stylesheet" href="../src/components/Styling/Images.css">
-  <link rel="stylesheet" href="../src/components/Styling/Reusable.css">
-  <link rel="stylesheet" href="../src/components/Styling/Text.css">
+  <link rel="stylesheet" href="../src/components/Styling/images.css">
+  <link rel="stylesheet" href="../src/components/Styling/reusable.css">
+  <link rel="stylesheet" href="../src/components/Styling/text.css">
+  <link rel="stylesheet" href="../src/components/Styling/form.css">
 
   <title>Sommarfisk</title>
 </head>
@@ -23,48 +25,44 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
 
-  <script>
-
-    < div >
-      <form
-        name="contact"
-        method="post"
-        data-netlify="true"
-        onSubmit="submit"
-        data-netlify-honeypot="bot-field">
-
-        <input type="hidden" name="form-name" value="contact" />
-
-        <div hidden>
-          <input name="bot-field" />
-        </div><br />
 
 
-        <div>
-          <label>Your name: <br />
-            <input type="text" name="first-name" />
-          </label>
-        </div><br />
 
-        <div>
-          <label>Your Email: <br />
-            <input type="email" name="email" />
-          </label>
-        </div><br />
+  <div class="formDivHidden">
+    <form name="contact" method="post" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
 
-        <div>
-          <label>Question: <br />
-            <textarea name="question"></textarea>
-          </label>
-        </div><br />
+      <input type="hidden" name="form-name" value="contact" />
+
+      <div hidden>
+        <input name="bot-field" />
+      </div><br />
 
 
-        <button type="submit">Send</button>
+      <div>
+        <label>Your name: <br />
+          <input type="text" name="first-name" />
+        </label>
+      </div><br />
+
+      <div>
+        <label>Your Email: <br />
+          <input type="email" name="email" />
+        </label>
+      </div><br />
+
+      <div>
+        <label>Question: <br />
+          <textarea name="question"></textarea>
+        </label>
+      </div> <br />
 
 
-      </form>
-    </div >
-  </script>
+      <button type="submit">Send</button>
+
+
+    </form>
+  </div>
+
 
 
 </body>
