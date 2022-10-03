@@ -5,10 +5,13 @@
   }
   
   .greenhouse{
-    background: url("../../../public/img/greenhouse.svg") center center/cover no-repeat;
     width: 286px;
     height: 299px;
-    margin: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+
+    
   }  
 
   .fish{
@@ -20,8 +23,8 @@
 
   .IllustrationSystem{
     background: url("../../../public/img/Illustrationsystem.svg") center center/cover no-repeat;
-    width:250px;
-    height:250px;
+    width:350px;
+    height:350px;
     margin: auto;
   }
 
@@ -29,4 +32,10 @@
     background: url("../../../public/img/sytem.png") center center/cover no-repeat;
     width: 200px;
     height: 100px;
+  }
+
+  @media screen and (max-width:768px) {
+    .IllustrationSystem{
+      display: none;
+    }
   }

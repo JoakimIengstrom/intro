@@ -23,7 +23,7 @@ function App() {
           <div className="item2 align-self justify-self">
             <Info />
           </div>
-          <div className="item3 align-self justify-self">
+          <div className="item3 align-self justify-self aquaponicMobile">
             <Aquaponic />
           </div>
           <div className="item5 align-self justify-self">
@@ -48,6 +48,8 @@ function App() {
       </div>
     </div>
   );
+
 }
+
 
 export default App;

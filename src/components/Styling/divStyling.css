@@ -32,7 +32,8 @@
     margin-top: 100px;
 }
 
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 769px) {
 
     .infoText{
         margin-top: 0px;
@@ -49,5 +50,10 @@
             transform: translateX(0,-50%);
 
     }
+
+    #aquaponicImg{
+        display: none;
+    }
     
 }
+
