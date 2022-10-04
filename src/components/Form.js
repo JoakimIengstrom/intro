@@ -40,7 +40,7 @@ export default function form() {
               <p>
                 Namn* <br />
               </p>
-              <input type="text" name="name" required />
+              <input type="text" name="fullName" required />
             </label>
           </div>
           <br />
