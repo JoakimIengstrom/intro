@@ -40,7 +40,7 @@ export default function form() {
               <p>
                 Namn* <br />
               </p>
-              <input type="text" name="name" />
+              <input type="text" name="name" required />
             </label>
           </div>
           <br />
@@ -50,7 +50,7 @@ export default function form() {
               <p>
                 E-postaddress* <br />
               </p>
-              <input type="email" name="email" />
+              <input type="email" name="email" required/>
             </label>
           </div>
           <br />
