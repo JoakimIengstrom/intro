@@ -25,52 +25,59 @@
 
 /*  Fonts */
 
-.title-small{
+#title-small{
     font-family: 'Rubik', sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: auto;
+    color: white;
 }
-.title-medium{
+#title-medium{
     font-family: 'Rubik', sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: auto;
+    color: white;
 }
-.heading-1{
+#heading-1{
     font-family: 'Rubik', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: auto;
+    color: white;
 }
-.heading-2{
+#heading-2{
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: auto;
 }
-.Paragraph-1{
+#Paragraph-1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 150%;
+    color: white;
 }
-.Paragraph-2{
+#Paragraph-2{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 100;
     line-height: auto;
+    color: white;
 }
-.Paragraph-3{
-    font-family: 'Alegreya Sans SC', sans-serif;
+#Paragraph-3{
+    font-family: 'Alegreya Sans SC', 'sans-serif';
     font-size: 20px;
-    font-weight: 700;
-    line-height: 150%;
+    font-weight: 100;
+    line-height: 100%;
     letter-spacing: 2%;
+    color: white;
 }
-.form-font{
+#form-font{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+    color: white;
 }
