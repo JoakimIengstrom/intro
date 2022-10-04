@@ -14,17 +14,17 @@
   }  
 
   .fish{
-    background: url("../../../public/img/fish.svg") center center/cover no-repeat;
     width: 255px;
     height: 254px;
-    margin: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }  
 
   .IllustrationSystem{
-    background: url("../../../public/img/Illustrationsystem.svg") center center/cover no-repeat;
     width:350px;
     height:350px;
-    margin: auto;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
   .system {

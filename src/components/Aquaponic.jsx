@@ -3,6 +3,6 @@ import "./Styling/images.css"
 
 export default function Aquaponic() {
   return (
-    <div className="IllustrationSystem"></div>
+    <img src="/img/IllustrationSystem.svg" alt="img" className='IllustrationSystem' />
   )
 }

@@ -39,6 +39,9 @@
     ]
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "@hookform/resolvers": "^2.9.8",
+    "file-loader": "^6.2.0",
+    "react-hook-form": "^7.36.1",
+    "yup": "^0.32.11"
   }
 }
