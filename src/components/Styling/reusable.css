@@ -22,3 +22,55 @@
 .justify-self{
     justify-self: center;
 }
+
+/*  Fonts */
+
+.title-small{
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: auto;
+}
+.title-medium{
+    font-family: 'Rubik', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: auto;
+}
+.heading-1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: auto;
+}
+.heading-2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: auto;
+}
+.Paragraph-1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.Paragraph-2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: auto;
+}
+.Paragraph-3{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 2%;
+}
+.form-font{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+}

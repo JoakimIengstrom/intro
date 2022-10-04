@@ -2,8 +2,12 @@ import * as React from "react";
 import "./Styling/divStyling.css";
 import "./Styling/text.css";
 import "./Styling/form.css";
+import "./Styling/reusable.css"
+
 
 export default function form() {
+
+
 
   return (
     <div className="form-container">
@@ -16,10 +20,11 @@ export default function form() {
         inte längre vill delta. Dina uppgifter kommer aldrig användas för något
         annat.
       </p>
-      <div className="form-div form">
+      <div className="form-div form form-font">
         <form
           name="contact"
           method="post"
+          onSubmit="submit"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >

@@ -4,6 +4,6 @@ import "./Styling/grid.css"
 
 export default function Claria() {
   return (
-    <div className='fish claria'></div>
+    <img src="/img/fish.svg" alt="img" className='fish claria' />
   )
 }
