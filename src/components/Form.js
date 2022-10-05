@@ -37,7 +37,7 @@ export default function form() {
 
           <div>
             <label>
-              <p>
+              <p id="form-font">
                 Namn* <br />
               </p>
               <input type="text" name="name" required />
@@ -47,7 +47,7 @@ export default function form() {
 
           <div>
             <label>
-              <p>
+              <p id="form-font">
                 E-postaddress* <br />
               </p>
               <input type="email" name="email" required/>
@@ -57,7 +57,7 @@ export default function form() {
 
           <div>
             <label>
-              <p>Vad skulle du vilja veta mer om?</p>
+              <p id="form-font">Vad skulle du vilja veta mer om?</p>
               <br />
               <textarea name="subject" maxLength="504"></textarea>
             </label>
@@ -66,7 +66,7 @@ export default function form() {
 
           <div>
             <label>
-              <p>
+              <p id="form-font">
                 Med rätt support och guidning, hade du haft möjlighet och plats
                 för sommarfisk?
               </p>
