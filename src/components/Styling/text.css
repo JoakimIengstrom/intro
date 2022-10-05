@@ -8,12 +8,9 @@
   .infoText {
     margin-top: 20px;
     color: white;
-    color: #09353D;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0;
   }
 
@@ -29,6 +26,7 @@
     font-family: 'Rubik', sans-serif;
     color: white;
     margin: 2%;
+    font-weight:600;
   }
   #infoText{
     font-family: 'Alegreya Sans SC', sans-serif;
@@ -42,6 +40,15 @@
     font-size: 24px;
     font-family: 'Rubik', sans-serif;
     color: white;
+    text-align: left;
+    font-weight: 600;
+  }
+  #restaurantText {
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-left: 5%;
   }
   
 
@@ -55,15 +62,14 @@
     width: 100%;
     margin: 0;
   }
-  .reasons p{
+
+  .reasonsText{
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
-    font-weight: 500;
     margin-left: 10%;
     margin-right:10%;
-    padding: 0;
-  } 
+  }
 
 
   #specialSign{
@@ -84,8 +90,9 @@
   }
 
   .formText {
-    text-align: center;
+    text-align: left;
     padding: 5%;
+    margin-left:5%;
   }
   #formTitle{
     font-family: 'Rubik', sans-serif;
@@ -96,6 +103,14 @@
     color: white;
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    text-align: left;
+    margin-left: 5%;
+  }
+  
+
+  #fat-font{
+    font-weight: 800;
+    font-display: bold;
   }
 
   @media only screen and (min-width:600px) {

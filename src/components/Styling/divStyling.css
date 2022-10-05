@@ -1,7 +1,6 @@
 .infoText {
     margin-top: 20px;
     color: white;
-    font-family: 'Rubik', sans-serif;
     color: #09353D;
     text-align: center;
     justify-content: center;
@@ -30,6 +29,10 @@
 
 .factDiv{
     margin-top: 100px;
+    text-align: left;
+    margin-left: 10%;
+    align-items: left;
+    line-height: 140%;
 }
 
 
@@ -37,6 +40,9 @@
 
     .infoText{
         margin-top: 0px;
+        text-align: left;
+        justify-content: unset;
+        align-items: unset;
     }
 
     .desktopInfoReasons{
@@ -60,8 +66,9 @@
     }
 
     .factDiv{
-        bottom: 15rem;
+        bottom: 10rem;
         position: relative;
+        width: 50%;
     }
 
    
