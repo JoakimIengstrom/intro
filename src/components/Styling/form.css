@@ -20,7 +20,7 @@
 }
 .form-div input, textarea{
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px rgba(3, 84, 93, 0.5);
     box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
     opacity: 100%;
     margin-left: 50%;

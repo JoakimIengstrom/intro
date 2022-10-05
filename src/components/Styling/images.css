@@ -5,8 +5,8 @@
   }
   
   .greenhouse{
-    width: 286px;
-    height: 299px;
+    width: 300px;
+    height: 340px;
     margin-left: 50%;
     transform: translateX(-50%);
 
@@ -21,8 +21,8 @@
   }  
 
   .IllustrationSystem{
-    width:350px;
-    height:350px;
+    width:440px;
+    height:440px;
     margin-left: 50%;
     transform: translateX(-50%);
   }

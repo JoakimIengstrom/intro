@@ -11,8 +11,8 @@ export default function form() {
 
   return (
     <div className="form-container">
-      <p className="formText" id="formText">
-        <b id="formTitle">Är det dig vi söker?</b> <br />
+      <p className="formText" id="Paragraph-2">
+        <b id="heading-1">ÄR DET DIG VI SÖKER?</b> <br />
         <br />
         Fyll i formuläret om du är intresserad av Sommarfisk och skulle vilja
         veta mer eller vara delaktig i hur tjänsten kommer utformas. <br />{" "}

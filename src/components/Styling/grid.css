@@ -6,7 +6,11 @@
 
 @media screen and (min-width: 769px) {
     .item1 { grid-area: header; }
-    .item2 { grid-area: info; }
+    .item2 { 
+            grid-area: info;
+            text-align: left;
+            
+            }
     .item3 { grid-area: aquaponic; }
     .item4 { grid-area: greenhouse; }
     .item5 { grid-area: reasons; }
