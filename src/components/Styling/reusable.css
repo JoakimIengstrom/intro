@@ -16,6 +16,9 @@
 .text-center{
     text-align:center;
 }
+.text-left{
+    text-align: center;
+}
 .align-self{
     align-self: center;
 }
@@ -55,7 +58,7 @@
 #Paragraph-1{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 150%;
     color: white;
     margin: 0;
@@ -80,4 +83,12 @@
     font-size: 16px;
     font-weight: 700;
     line-height: 150%;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .text-left{
+        text-align: left;
+    }
 }

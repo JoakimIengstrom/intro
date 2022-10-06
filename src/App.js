@@ -16,11 +16,11 @@ function App() {
   return (
     <div className="App">
       <div className="padding">
-        <div className="gridLayout align-self">
+        <div className="gridLayout align-self text-left">
           <div className="item1 align-self justify-self">
             <Header />
           </div>
-          <div className="item2 align-self justify-self">
+          <div className="item2 align-self justify-self text-left">
             <Info />
           </div>
           <div className="item3 align-self justify-self aquaponicMobile">
