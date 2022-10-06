@@ -17,7 +17,7 @@ export default function info() {
               
     
       <p id='heading-2'>PILOT 2023</p>
-      <p id='Paragraph-1'> Under sommaren 2023 kommer konceptet sommarfisk att testas tillsammans med ett fåtal utvalda personer.</p>
+      <p id='Paragraph-1' className='text-left'> Under sommaren 2023 kommer konceptet sommarfisk att testas tillsammans med ett fåtal utvalda personer.</p>
     </div>
     
   )
