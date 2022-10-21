@@ -2,23 +2,18 @@ import * as React from "react";
 import "./Styling/divStyling.css";
 import "./Styling/text.css";
 import "./Styling/form.css";
-import "./Styling/reusable.css"
-
+import "./Styling/reusable.css";
 
 export default function form() {
-
-
-
   return (
     <div className="form-container">
       <p className="formText" id="Paragraph-2">
         <b id="heading-1">ÄR DET DIG VI SÖKER?</b> <br />
         <br />
-        Fyll i formuläret om du är intresserad av Sommarfisk och skulle vilja
-        veta mer eller vara delaktig i hur tjänsten kommer utformas. <br />{" "}
-        <br /> Vi hör av oss till dig men dina uppgifter kommer ej sparas om du
-        inte längre vill delta. Dina uppgifter kommer aldrig användas för något
-        annat.
+        Fyll i formuläret om du är intresserad och skulle vilja veta mer eller
+        vara delaktig i hur tjänsten kommer utformas. <br /> <br /> Vi hör av
+        oss till dig men dina uppgifter kommer ej sparas om du inte längre vill
+        delta. Dina uppgifter kommer aldrig användas för något annat.
       </p>
       <div className="form-div form form-font">
         <form
@@ -50,7 +45,7 @@ export default function form() {
               <p id="form-font">
                 E-postaddress* <br />
               </p>
-              <input type="email" name="email" required/>
+              <input type="email" name="email" required />
             </label>
           </div>
           <br />
@@ -68,7 +63,7 @@ export default function form() {
             <label>
               <p id="form-font">
                 Med rätt support och guidning, hade du haft möjlighet och plats
-                för sommarfisk?
+                för att odla din egen fisk?
               </p>
               <br />
               <textarea name="question" maxLength="504"></textarea>
